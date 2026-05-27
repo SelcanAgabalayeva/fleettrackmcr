@@ -1,40 +1,59 @@
+# =====================
+# ENV FILES (CRITICAL)
+# =====================
+.env
+*.env
+
+# =====================
+# JAVA / SPRING BOOT
+# =====================
 HELP.md
 target/
+*.jar
+*.war
+
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+# =====================
+# IDEs
+# =====================
+.idea/
 *.iml
+*.iws
 *.ipr
 
-### NetBeans ###
+.vscode/
+
+# =====================
+# STS / ECLIPSE
+# =====================
+.classpath
+.project
+.settings
+.factorypath
+.springBeans
+.sts4-cache
+.apt_generated
+
+# =====================
+# NETBEANS
+# =====================
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
+
+# =====================
+# BUILD OUTPUT
+# =====================
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+out/
 
-### VS Code ###
-.vscode/
-
-# ENV FILES
-*.env
-
-# Docker
-*.log
+# =====================
+# DOCKER
+# =====================
 docker-compose.override.yml
+*.log
