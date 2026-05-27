@@ -1,0 +1,3 @@
+CREATE DATABASE auth_db;
+CREATE DATABASE vehicle_db;
+CREATE DATABASE driver_db;
